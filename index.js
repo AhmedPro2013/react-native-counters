@@ -141,7 +141,7 @@ export default class Counter extends Component {
 const Styles = StyleSheet.create({
   container: {
     flexDirection: "row",
-    marginBottom: 10
+    marginBottom: 5
   },
 
   text: {
