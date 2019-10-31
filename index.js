@@ -126,13 +126,13 @@ export default class Counter extends Component {
 
     return (
       <View style={Styles.container}>
-        <View>{this.renderMinusButton()}</View>
+        <View>{this.renderPlusButton()}</View>
         <View style={Styles.number}>
           <Text style={[Styles.text, { color: this.props.textColor }]}>
             {number}
           </Text>
         </View>
-        <View>{this.renderPlusButton()}</View>
+        <View>{this.renderMinusButton()}</View>
       </View>
     );
   }
@@ -141,6 +141,7 @@ export default class Counter extends Component {
 const Styles = StyleSheet.create({
   container: {
     flexDirection: "row"
+    marginBotton: 10
   },
 
   text: {
